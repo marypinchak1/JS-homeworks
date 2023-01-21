@@ -1,16 +1,16 @@
 // Task_1
 
-/* const yourName = prompt(`Введіть Ваше ім'я:`)
-alert(`Привіт, ${yourName}!`) */
+const yourName = prompt(`Введіть Ваше ім'я:`)
+alert(`Привіт, ${yourName}!`)
 
 // Task_2
 
-/* const birthYear = Number(prompt(`Введіть Ваш piк народження:`))
-const thisYear = 2023
-let yourAge = thisYear - birthYear
-if(birthYear>0){
-alert(`Вам ${yourAge} років!`)
-}else {
+/* const birthYear = Number(prompt(`Введіть Ваш piк народження:`));
+const thisYear = new Date().getFullYear();
+let yourAge = thisYear - birthYear;
+if (birthYear > 0) {
+  alert(`Вам ${yourAge} років!`);
+} else {
   alert("Ви ввели не вірні дані!");
 } */
 
@@ -64,15 +64,15 @@ if (sumOfDollars > 0) {
 
 // Task_7
 
-const capacityFlash = Number(prompt(`Введіть обсяг флешки (ГБ):`));
+/* const capacityFlash = Number(prompt(`Введіть обсяг флешки (ГБ):`));
 const mbInGb = 1024;
 const sizeOfFile = 820;
-let sumOfFiles =  Math.floor((capacityFlash * mbInGb) / sizeOfFile);
+let sumOfFiles = Math.floor((capacityFlash * mbInGb) / sizeOfFile);
 if (capacityFlash >= 0) {
   alert(`На флешку вміститься ${sumOfFiles.toFixed()} файлів.`);
 } else {
   alert("Ви ввели не вірні дані!");
-}
+} */
 
 // Task_8
 
@@ -92,4 +92,34 @@ if (sumOfMoney >= 0 && priceOfChocolate >= 0) {
 
 // Task_9
 
+/* const sumNumber = Number(prompt(`Введіть тризначне число:`));
+function getReversedNum(sumNumber) {
+  let result = 0;
+  while (sumNumber) {
+    result = result * 10 + (sumNumber % 10);
+    sumNumber = Math.floor(sumNumber / 10);
+  }
+  return result;
+}
+if (String(sumNumber).length == 3) {
+  alert(`Число паліндром: ${sumNumber}${getReversedNum(sumNumber)}`);
+} else {
+  alert("Ви ввели не вірні дані!");
+} */
+
 // Task_10
+
+/* const sumNumber = Number(prompt(`Введіть ціле число:`));
+if (
+  function isInteger(sumNumber) {
+    return (sumNumber ^ 0) === sumNumber;
+  }
+) {
+  if (sumNumber % 2 === 0) {
+    alert(`Ви ввели парне число!`);
+  } else {
+    alert("Ви ввели непарне число!");
+  }
+} else {
+  alert("Ви ввели не вірні дані!");
+} */
