@@ -25,7 +25,7 @@ if (SUM_NUMBER == 0) {
 } else if (SUM_NUMBER == 3) {
   alert(`#`);
 } else if (SUM_NUMBER == 4) {
-  alert(`$`);
+  alert(`$`); 
 } else if (SUM_NUMBER == 5) {
   alert(`%`);
 } else if (SUM_NUMBER == 6) {
